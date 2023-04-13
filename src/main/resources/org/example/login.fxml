@@ -13,7 +13,7 @@
 <?import javafx.scene.shape.Polyline?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="540.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.homeController">
+<AnchorPane maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="540.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.LoginController">
    <children>
       <Accordion />
       <Polygon fill="DODGERBLUE" layoutX="348.0" layoutY="196.0" points="-348.0, -60.0, -348.0, -196.0, -207.99998474121094, -196.0" stroke="BLACK" strokeType="INSIDE" />

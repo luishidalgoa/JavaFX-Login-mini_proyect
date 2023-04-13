@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class repoUsers {
     @XmlTransient
     private static repoUsers _instance;
-    private ArrayList<User> users=new ArrayList<>();
+    private ArrayList<User> users;
 
     public repoUsers() {
         users=new ArrayList<>();

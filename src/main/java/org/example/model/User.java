@@ -3,16 +3,21 @@ package org.example.model;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import java.util.Objects;
+
 @XmlAccessorType(XmlAccessType.FIELD)
 public class User {
     private String password;
     private String username;
+    private String dni;
+    private String WP;
     public User() {
     }
 
-    public User(String username,String password) {
+    public User(String username,String password,String dni,String WP) {
         this.password = password;
         this.username = username;
+        this.dni=dni;
+        this.WP=WP;
     }
 
     public boolean login(String username, String password){
@@ -21,7 +26,7 @@ public class User {
         }
         return false;
     }
-
+    
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -49,5 +54,13 @@ public class User {
 
     public String getUsername() {
         return username;
+    }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public String getWP() {
+        return WP;
     }
 }

@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <repoUsers>
     <users>
-        <password>1234</password>
-        <username>admin</username>
+        <password>admin</password>
+        <username>Francisco</username>
+        <dni>12345678Z</dni>
+        <WP>Teacher</WP>
     </users>
     <users>
-        <password>1234</password>
-        <username>user</username>
-    </users>
-    <users>
-        <password>1234</password>
-        <username>admin</username>
-    </users>
-    <users>
-        <password>1234</password>
-        <username>admin</username>
+        <password>user</password>
+        <username>Luis</username>
+        <dni>12367423M</dni>
+        <WP>Software developer</WP>
     </users>
 </repoUsers>
