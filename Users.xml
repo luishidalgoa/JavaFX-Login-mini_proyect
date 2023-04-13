@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <repoUsers>
-    <users>
+    <users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="admin">
         <password>admin</password>
-        <username>Francisco</username>
+        <username>admin</username>
         <dni>12345678Z</dni>
         <WP>Teacher</WP>
     </users>
     <users>
         <password>user</password>
-        <username>Luis</username>
+        <username>user</username>
         <dni>12367423M</dni>
         <WP>Software developer</WP>
+    </users>
+    <users>
+        <password>1234</password>
+        <username>luis</username>
+        <dni>54592015c</dni>
+        <WP>Software</WP>
     </users>
 </repoUsers>

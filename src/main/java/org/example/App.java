@@ -25,16 +25,13 @@ public class App extends Application {
         this.stage.show();
     }
     public static void setRoot(String nameScene) throws IOException {
-        scene.setRoot((Parent) loadFXML(nameScene)[0]);
+        scene.setRoot(loadFXML(nameScene));
         stage.setScene(scene);
         stage.show();
     }
-    que es dto y si el dto tiene 3 atributos distintos y luego en un metodo los valida
-    static Object[] loadFXML(String fxml) throws IOException {
+    static Parent loadFXML(String fxml) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(fxml + ".fxml"));
-        ModuleLayer.Controller controller=(ModuleLayer.Controller)fxmlLoader.getController();
-        Object[] result={fxmlLoader.load(),controller};
-        return result;
+        return fxmlLoader.load();
     }
 
     public static void main(String[] args) {

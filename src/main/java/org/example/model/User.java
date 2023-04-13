@@ -2,9 +2,13 @@ package org.example.model;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlSeeAlso;
 import java.util.Objects;
 
 @XmlAccessorType(XmlAccessType.FIELD)
+@XmlSeeAlso({Admin.class})
+@XmlRootElement(name = "User")
 public class User {
     private String password;
     private String username;

@@ -7,7 +7,7 @@ import org.example.model.User;
 
 import java.io.IOException;
 
-public class UserController{
+public class AdminController{
     @FXML
     private Button LogOut;
     @FXML
@@ -17,8 +17,6 @@ public class UserController{
     @FXML
     private Label label_WPText;
     private static User user;
-    //¿COMO CAMBIO DE ESCENARIO SIN ABRIR UNA NUEVA VENTANA?
-    //¿Como puedo serializar el Admin de forma independiente al user
     //ME GUSTARIA CONOCER ALGUNA MANERA DE QUE AL PASAR DE ESCENARIO SE PASE POR PARAMETRO EL USUARIO QUE ES
     public void initialize() {
         label_nameText.setText(user.getUsername());
