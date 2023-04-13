@@ -21,11 +21,11 @@ public class SigninController{
     private TextField label_WP;
     @FXML
     private Label label_error;
-    @FXML
-    private Button button_signIn;
-    public void Register(){
-        User user=new User();
-    }
+
+    /**
+     * Se validan todos los campos y si no existe el usuario se procede a registrar el usuario
+     * @throws IOException
+     */
     @FXML
     public void SignIn() throws IOException {
         if(label_name.getText().length()>0 && label_password.getText().length()>0 && label_dni.getText().length()>0 && label_WP.getText().length()>0){

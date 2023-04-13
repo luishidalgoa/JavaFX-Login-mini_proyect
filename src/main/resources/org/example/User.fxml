@@ -24,7 +24,7 @@
                         <Font size="37.0" />
                     </font>
                 </Label>
-                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="23.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView fx:id="img_test" fitHeight="150.0" fitWidth="200.0" layoutX="23.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
                     <image>
                         <Image url="@images/image.jpg" />
                     </image>

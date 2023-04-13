@@ -1,10 +1,12 @@
 package org.example;
 
 import javafx.application.Application;
+import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 import org.example.Utils.XMLManager;
 import org.example.model.*;
 
@@ -20,6 +22,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         this.stage=stage;
+        this.stage.setTitle("Login App");
         scene = new Scene(loadFXML("login"), 705, 540);
         this.stage.setScene(scene);
         this.stage.show();
